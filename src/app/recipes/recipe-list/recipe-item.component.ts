@@ -6,6 +6,7 @@ import { Recipe } from '../recipe';
     selector: 'rb-recipe-item',
     templateUrl: './recipe-item.component.html'
 })
+
 export class RecipeItemComponent implements OnInit {
     @Input() recipe: Recipe;
     recipeId: number;

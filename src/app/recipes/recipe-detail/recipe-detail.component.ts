@@ -6,11 +6,11 @@ import { Recipe } from '../recipe';
     selector: 'rb-recipe-detail',
     templateUrl: './recipe-detail.component.html'
 })
+
 export class RecipeDetailComponent implements OnInit {
     @Input() selectedRecipe: Recipe;
     constructor() { }
 
     ngOnInit() {
     }
-
 }

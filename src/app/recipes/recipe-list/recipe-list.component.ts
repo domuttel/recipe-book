@@ -6,6 +6,7 @@ import { Recipe }  from '../recipe';
     selector: 'rb-recipe-list',
     templateUrl: './recipe-list.component.html'
 })
+
 export class RecipeListComponent implements OnInit {
     recipes: Recipe[] = [];
     @Output() recipeSelected =  new EventEmitter<Recipe>();
